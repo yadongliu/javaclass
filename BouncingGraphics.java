@@ -54,7 +54,7 @@ class GamePanel extends JPanel {
     public void setupGame() {
         circles = new ArrayList<GameCircle>();
 
-        GameCircle gc = new GameCircle(3, 4, 50, 50, 10, Color.blue);
+        GameCircle gc = new GameCircle(3, 4, 50, 50, 10, Color.yellow);
         circles.add(gc);
         gc = new GameCircle(6, 5, 100, 125, 10, Color.red);
         circles.add(gc);
