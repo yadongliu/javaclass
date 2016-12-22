@@ -64,6 +64,7 @@ class GamePanel extends JPanel {
 
     }
 
+    // Call this from your game loop
     public void runGame() {
         // System.out.println("(x, y)" + center.x + ","+center.y);
         this.gameUpdate();
